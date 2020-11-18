@@ -1,0 +1,12 @@
+.alert {
+  position: absolute;
+  width: 163px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 5px;
+  word-break: break-all;
+  z-index: 1400;
+}

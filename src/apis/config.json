@@ -1,0 +1,5 @@
+{
+  "apiUrl": "https://devapistartask.yue.bet/",
+  "jsonServer": "http://localhost:5001/",
+  "imageServer": "https://devimagestartask.yue.bet/"
+}

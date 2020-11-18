@@ -1,0 +1,82 @@
+.btnArea {
+    display: flex;
+    flex-wrap: wrap;
+    button {
+        background: #ffffff;
+        border: none;
+        border-top: 1px solid #f6f7f9;
+        border-left: 1px solid #f6f7f9;
+        flex: 1 0 33.2%;
+        height: 55px;
+        font-size: 26px;
+        span {
+            color: black;
+        }
+    }
+    .btnBottom {
+        width: 100%;
+        display: flex;
+        .lastBtn {
+            flex: 1 0 66.5%;
+        }
+        .backBtn {
+            flex: 1 0 33.2%;
+            background-color: #e4e7ed;
+            border-radius: unset;
+        }
+    }
+}
+.inputArea {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    input {
+        // width: 40px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 5px;
+        text-align: center;
+        border: solid 1px #cccccc;
+        border-radius: 3px;
+        width: 10%;
+        -webkit-appearance: none;
+    }
+}
+.desFont {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 12px;
+}
+.numberDialog {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    .btnArea {
+        margin-bottom: -8px;
+    }
+    .forgetBtn {
+        text-align: right;
+        margin-right: 5%;
+        margin-bottom: 12px;
+        button {
+            border: none;
+            background: initial;
+        }
+    }
+    .protectFont {
+        display: block;
+        color: #ff3e3e;
+        font-size: 12px;
+        margin-top: 12px;
+        opacity: 0.6;
+    }
+    .titleArea {
+        border-bottom: 1px solid #f6f7f9;
+        padding: 13px 0px;
+        font-size: 14px;
+        color: black;
+    }
+}

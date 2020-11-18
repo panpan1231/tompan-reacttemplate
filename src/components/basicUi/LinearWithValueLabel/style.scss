@@ -1,0 +1,31 @@
+.MuiLinearProgress-root {
+  height: 5px !important;
+  border-radius: 2.5px;
+  background: #ffffff !important;
+}
+
+.MuiLinearProgress-barColorPrimary {
+  background: linear-gradient(
+    45deg,
+    #f84e85 10%,
+    #fe2a6d 0,
+    #fe2a6d 20%,
+    #f84e85 0,
+    #f84e85 30%,
+    #fe2a6d 0,
+    #fe2a6d 40%,
+    #f84e85 0,
+    #f84e85 50%,
+    #fe2a6d 0,
+    #fe2a6d 60%,
+    #f84e85 0,
+    #f84e85 70%,
+    #fe2a6d 0,
+    #fe2a6d 80%,
+    #f84e85 0,
+    #f84e85 90%,
+    #fe2a6d 0,
+    #fe2a6d 100%,
+    #f84e85 0
+  );
+}

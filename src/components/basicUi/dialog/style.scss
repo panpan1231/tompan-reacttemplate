@@ -1,0 +1,30 @@
+.componentsDialog {
+  .MuiPaper-root {
+    text-align: center;
+    width: 300px;
+  }
+  .MuiDialogActions-root {
+    display: flex;
+    padding: 0 !important;
+    justify-content: space-around !important;
+    align-content: center;
+    border-top: 1px solid #f5f5f5;
+  }
+  .MuiTypography-body1 {
+    font-size: 14px !important;
+  }
+
+  .btnContainer {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #f5f5f5;
+    padding: 2px;
+    button {
+      font-size: 14px !important;
+    }
+
+    .confirm {
+      color: #fe2a6d;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+$color1: #2e2e83;
+.p-ui__select {
+  margin-bottom: 16px;
+  max-height: 300px;
+  .p-ui__select-context {
+    background-color: $color1;
+    position: relative;
+    width: 100%;
+    display: flex;
+    // margin-bottom: 16px;
+    input {
+      background-color: transparent;
+      margin-bottom: 0;
+      width: 100%;
+      flex: 1 0 60%;
+      &:focus {
+        outline: unset;
+      }
+    }
+    .p-ui__select-context-afert {
+      width: auto;
+      margin-right: 13px;
+    }
+    .p-ui__select-context-before {
+      width: auto;
+      margin-left: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .MuiTypography-root {
+    font-size: 14px !important;
+  }
+  span.p-ui-errormsg__select {
+    color: red;
+    font-size: 12px;
+  } 
+}

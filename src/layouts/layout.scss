@@ -1,0 +1,26 @@
+.MuiBottomNavigation-root {
+  .MuiButtonBase-root.MuiBottomNavigationAction-root {
+    color: #4a49d7;
+
+    &.Mui-selected {
+      color: #f84250;
+    }
+  }
+}
+.startask-layout {
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+.content {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  background: gray;
+  height: calc(100vh - 112px);
+  overflow: scroll;
+}
+// .MuiToolbar-root.MuiToolbar-regular {
+//   padding: 0;
+// }
+// header.MuiPaper-root.MuiAppBar-root.makeStyles-appBar-4 {
+//   height: 13vh;
+// }

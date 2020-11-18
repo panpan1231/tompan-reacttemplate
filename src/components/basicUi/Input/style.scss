@@ -1,0 +1,85 @@
+.p-ui__input {
+  margin-bottom: 16px;
+  position: relative;
+  p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 5px;
+  }
+  .p-ui__input-context {
+    display: flex;
+    margin-bottom: 1px;
+    background-color: var(--inputColor);
+
+    &.focus {
+      outline: -webkit-focus-ring-color auto 1px;
+    }
+    &.bottom-line {
+      border-bottom: 1px solid white;
+      background-color: unset;
+    }
+    input {
+      margin-bottom: 2px !important;
+      border-radius: 2px;
+
+      width: calc(100% - 20px);
+      border: none;
+      padding: 12px;
+      margin-bottom: 15px;
+      color: #ffffff;
+      font-size: 14px;
+      flex: 1 0 60%;
+      &:focus {
+        outline: unset;
+      }
+      &.bottom-line {
+        width: calc(100% - 40px);
+        // border-bottom: 1px solid white;
+        background: unset;
+        font-size: 16px;
+        padding: 6px 0 7px 0px;
+        &:focus {
+          outline: unset;
+        }
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.4);
+        }
+      }
+    }
+    .p-ui__input-context-afert {
+      width: auto;
+      margin-right: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .p-ui__input-context-before {
+      width: auto;
+      margin-left: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  span.p-ui-errormsg__input {
+    color: red;
+    font-size: 12px;
+  }
+  button {
+    top: 29px !important;
+    bottom: 0px;
+    margin-top: 0px;
+    &.MuiButton-root.buttonFormat {
+      color: white;
+      position: unset;
+      width: auto;
+      max-height: 25px;
+      // right: 10px;
+      font-size: 12px;
+      padding: 0 7px;
+      // top: -5px !important;
+      // left: unset;
+    }
+  }
+}
