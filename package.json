@@ -1,10 +1,10 @@
 {
-  "name": "-tompan-reacttemplate",
+  "name": "tompan-reacttemplate",
   "version": "1.0.3",
   "description": "quick start react with route and materiaui",
   "main": "index.js",
   "bin": {
-    "-tompan-reacttemplate": "./bin/-tompan-reacttemplate.js"
+    "tompan-reacttemplate": "./bin/tompan-reacttemplate.js"
   },
   "scripts": {
     "start": "react-scripts start",
