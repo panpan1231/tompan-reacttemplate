@@ -2,7 +2,7 @@
 
 'use strict';
 
-const appName = "newProject;
+const appName = "newProject";
 const { spawnSync } = require('child_process');
 const url = 'https://github.com/panpan1231/tompan-reacttemplate.git';
 
