@@ -4,7 +4,7 @@
   "description": "quick start react with route and materiaui",
   "main": "index.js",
   "bin": {
-    "create-react": "./bin/create-react.js"
+    "-tompan-reacttemplate": "./bin/-tompan-reacttemplate.js"
   },
   "scripts": {
     "start": "react-scripts start",
