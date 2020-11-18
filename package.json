@@ -3,7 +3,9 @@
   "version": "1.0.3",
   "description": "quick start react with route and materiaui",
   "main": "index.js",
-  "bin":"index.js",
+  "bin": {
+    "create-react": "./bin/create-react.js"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
