@@ -4,7 +4,7 @@
 
 const appName = process.argv[2];
 const { spawnSync } = require('child_process');
-const url = 'https://github.com/jbonigomes/create-react-slides.git';
+const url = 'https://github.com/panpan1231/tompan-reacttemplate.git';
 
 spawnSync('git', ['clone', url, `${process.cwd()}/${appName}`]);
 spawnSync('npm', ['install', '--prefix', `${process.cwd()}/${appName}`]);
